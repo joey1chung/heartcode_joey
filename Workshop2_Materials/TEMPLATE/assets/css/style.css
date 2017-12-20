@@ -1,0 +1,62 @@
+body {
+  padding-top: 70px;
+  background-color:white;
+}
+
+
+.navbar-nav{
+  padding-left: 200px;
+}
+
+@media screen and (max-width: 760px) {
+  .navbar-nav{
+    padding-left: 0px;;
+  }
+} 
+
+
+hr {
+  border-color: rgba(41,57,62,0.3);
+}
+
+.header {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.profile-pic {
+  margin-left: 80px;
+  border: 2px dashed #FFF;
+  background-color: rgba(41,57,62,0.7);
+}
+
+.profile-desc small {
+  color: black;
+}
+
+.content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.contact-info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-border{
+  width: 50px;
+  border: 2px solid black;
+}
+
+.content-header {
+  text-transform: uppercase;
+  color: #1b1bbf;
+}
+
+footer {
+  border-top: 2px solid black;
+  padding-top: 15px;
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
